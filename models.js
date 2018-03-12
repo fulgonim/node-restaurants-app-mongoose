@@ -48,7 +48,7 @@ restaurantSchema.methods.serialize = function() {
     borough: this.borough,
     grade: this.grade,
     address: this.addressString
-  };
+  }; 
 };
 
 // note that all instance methods and virtual properties on our
